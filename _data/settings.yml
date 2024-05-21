@@ -7,19 +7,19 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Interesting Facts',  url: 'facts'}
-- {name: 'Meso', url: 'resources'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
-- {name: 'Documentation',      url: 'documentation'}
-- {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+- {name: 'Interesting Facts',  url: 'fakte'}
+- {name: 'Meso', url: 'meso'}
+- {name: 'Foto',       url: 'foto'}
+- {name: 'Dokumentacioni',      url: 'dokumentacioni'}
+- {name: 'Rreth',              url: 'rreth'}
+- {name: 'Kontaktet',            url: 'kontakt'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link:    'https://twitter.com/paululele'}
-- {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
-- {icon: 'instagram', link:  'https://instagram.com/paululele'}
-- {icon: 'envelope', link:   'mailto:hello@paulle.ca'}
+- {icon: 'twitter', link:    'https://twitter.com/'}
+- {icon: 'facebook', link:   'https://www.facebook.com/'}
+- {icon: 'instagram', link:  'https://instagram.com/'}
+- {icon: 'envelope', link:   ''}
 - {icon: 'rss-square', link: 'feed.xml'}
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
 
@@ -28,8 +28,8 @@ pagination:
   next_page: 'Newer'
   previous_page: 'Older'
 
-sharing_button_prompt: 'Feel free to share!'
+sharing_button_prompt: 'nese tpelqe shperndaje!!'
 
-related_posts: 'You may also enjoy...'
+related_posts: 'hap dhe keto poshte'
 
-post_date_prefix: 'Written on'
+
