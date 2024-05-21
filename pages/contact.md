@@ -11,3 +11,7 @@ Me keni ne klase. Per cdo informacion me pyesni ne klase!!!!
 
 ... faleminderit per mirkuptimin.
 
+
+
+*provo te shtypesh kto butona poshte*
+
