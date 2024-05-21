@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Meso
-category: Meso
-permalink: /Meso
+title: Learning Resources
+category: resources
+permalink: /resources
 ---
