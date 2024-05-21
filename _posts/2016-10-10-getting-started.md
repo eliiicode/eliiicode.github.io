@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Getting Started"
-author: "Paul Le"
+title: "per me shume..."
+author: "eli"
 categories: documentation
 tags: [documentation,sample]
 image: city-1.jpg
