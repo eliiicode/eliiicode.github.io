@@ -1,157 +1,55 @@
 ---
 layout: post
-title: "Text Formatting"
-author: "Paul Le"
+title: "Formatimi i teksteve"
+author: "Eli"
 categories: sample
 tags: [sample]
 image: arctic-1.jpg
 ---
 
-# Markdown Support
 
-As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/). Examples of these text formatting features can be seen below. You can find this post in the `_posts` directory.
+## Formatimi bazë
 
-## Basic Formatting
+Me Markdown, është e mundur të theksohen fjalët duke i bërë ato *të pjerrëta*, duke përdorur *yllth* ose _nënvizat_, ose duke i bërë **të theksuara**, duke përdorur **yllza të dyfishta** ose __nënvizime të dyfishta__. Natyrisht, ju mund t'i kombinoni ato dy formate, me tekstin _**të theksuara dhe të pjerrëta**_, duke përdorur çdo kombinim të sintaksës së mësipërme. Ju gjithashtu mund të shtoni një goditje në tekst duke përdorur një ~~ tildë të dyfishtë~~.
 
-With Markdown, it is possible to emphasize words by making them *italicized*, using *astericks* or _underscores_, or making them **bold**, using **double astericks** or __double underscores__. Of course, you can combine those two formats, with both _**bold and italicized**_ text, using any combination of the above syntax. You can also add a strikethrough to text using a ~~double tilde~~.
+## Paragrafë
 
-## Paragraphs
-
-This is what a paragraph looks like. For the purpose of demonstration, the rest of this paragraph and the next paragraph after will mean absolutely nothing. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+Kështu duket një paragraf. Për qëllime të demonstrimit, pjesa tjetër e këtij paragrafi dhe paragrafi tjetër pas tij nuk do të thotë absolutisht asgjë. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 
-## Headings
+## Titujt
 
-Sometimes it is useful to have different levels of headings to structure your documents. Start lines with `#` to create headings. Multiple `##` in a row denote smaller heading size. The following demonstrate the full range of heading sizes:
+Kompleksi është një vend i madh i keni nivele të ndryshme të dokumenteve tuaja. g `#` për të krijuar tituj. Shumë `##` në një rresht tregojnë madhësi më të vogël të titullit. Më poshtë demonstrojnë gamën e plotë të madhësive të titullit:
 
-# Heading One (h1)
 
-## Heading Two (h2)
+## Titujt
 
-### Heading Three (h3)
+Kompleksi është një vend i madh i keni nivele të ndryshme të dokumenteve tuaja. g `#` për të krijuar tituj. Shumë `##` në një rresht tregojnë madhësi më të vogël të titullit. Më poshtë demonstrojnë gamën e plotë të madhësive të titullit:
 
-#### Heading Four (h4)
+# Kreu i parë (h1)
 
-##### Heading Five (h5)
+## Kreu i dytë (h2)
 
-###### Heading Six (h6)
+### Kreu i tretë (h3)
 
-## Links
+#### Kreu i katërt (h4)
 
-You can create an inline link by wrapping link text in square brackets `[ ]`, and then wrapping the URL in parentheses `( )`. For example, it is very easy to [link to Google!](http://google.com).
+##### Titulli Pesë (h5)
 
-## Blockquotes
+###### Titulli i gjashtë (h6)
 
-Blockquotes are useful for denoting quotes, or highlighting a large block of text. Single line blockquote:
+## Lidhje
 
-> This quote will change your life.
+Mund të krijoni një lidhje inline duke e mbështjellë tekstin e lidhjes në kllapa katrore `[ ]` dhe më pas duke e mbështjellë URL-në në kllapa `( )`. Për shembull, është shumë e lehtë të [lidhni me Google!](http://google.com).
 
-Multi line blockquote with a cite reference:
+## Blloqe citate
 
-> People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.
+Blockquotes janë të dobishme për të treguar thonjëza, ose për të theksuar një bllok të madh teksti. Bllokimi me një rresht:
 
-## Code and Syntax Highlighting
+> Ky citim do të ndryshojë jetën tuaj.
 
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers - like GitHub or most Jekyll themes - support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Also, it is possible to do `inline code blocks`, by wrapping the text in ` ` ` quotations.
+Blloqe me shumë rreshta me një referencë citimi:
 
-```
-No language indicated, so no syntax highlighting.
-```
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-{% highlight js %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
-
-Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
-
-## Unordered and Numbered Lists
-
-You can make an unordered and nested list by preceding one or more lines of text with `-`, `*`, or `+`, and indenting sublists. The following lists show the full range of possible list formats.
-
-* List item one
-    * List item one
-        * List item one
-        * List item two
-        * List item three
-        * List item four
-    * List item two
-    * List item three
-    * List item four
-* List item two
-* List item three
-* List item four
-
-Numbered lists are made by using numbers instead of bullet points.
-
-1. List item one
-    1. List item one
-        1. List item one
-        2. List item two
-        3. List item three
-        4. List item four
-    2. List item two
-    3. List item three
-    4. List item four
-2. List item two
-3. List item three
-4. List item four
-
-## MathJax Example
-
-The [Schrödinger equation](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation) is a partial differential equation that describes how the quantum state of a quantum system changes with time:
-
-$$
-i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)
-$$
-
-[Joseph-Louis Lagrange](https://en.wikipedia.org/wiki/Joseph-Louis_Lagrange) was an Italian mathematician and astronomer who was responsible for the formulation of Lagrangian mechanics, which is a reformulation of Newtonian mechanics.
-
-$$ \frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial  L}{\partial \dot{q}_j} \right ) =  \frac {\partial L}{\partial q_j} $$
-
-## Tables
-
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | :-------------------: | :-------------------- | --------------------:
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-
-## Embedding
-
-Plenty of social media sites offer the option of embedding certain parts of their site on your own site, such as YouTube and Twitter:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mthtn1X4eUY" frameborder="0" allowfullscreen></iframe>
-
-<a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/paululele/timelines/755079130027352064">New Collection</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, which you can mix with Markdown if you like. A complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-## Useful Resources
-
-More information on Markdown can be found at the following links:
-
-- [Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#code)
-- [Quick Markdown Example](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html)
-- [Markdown Basics](https://daringfireball.net/projects/markdown/basics)
-- [GitHub Flavoured Markdown Spec](https://github.github.com/gfm/)
-- [Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/#lists)
+> Njerëzit mendojnë se fokusi do të thotë t'i thuash po asaj në të cilën duhet të fokusohesh. Por kjo nuk është aspak ajo që do të thotë. Do të thotë t'i thuash jo njëqind ideve të tjera të mira që ekzistojnë. Duhet të zgjidhni me kujdes. Në fakt jam po aq krenare për gjërat që nuk kemi bërë, sa edhe për gjërat që kam bërë. Inovacioni është t'i thuash jo 1000 gjërave.
