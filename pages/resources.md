@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Learning Resources
+title: Meso
 category: Meso
 permalink: /Meso
 ---
