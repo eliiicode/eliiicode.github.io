@@ -7,12 +7,12 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Fakte interesante',  url: 'fak'}
+- {name: 'Fakte interesante',  url: 'Fakte'}
 - {name: 'Meso', url: 'resources'}
-- {name: 'Postime',       url: 'ss'}
-- {name: 'Dokumente',      url: 'dok'}
-- {name: 'Nga une',              url: 'ngaune'}
-- {name: 'Kontakte',            url: 'kont'}
+- {name: 'Postime',       url: 'Postime'}
+- {name: 'Dokumente',      url: 'Dokumente'}
+- {name: 'Nga une',              url: 'Nga-une'}
+- {name: 'Kontakte',            url: 'Kontakte'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
