@@ -18,4 +18,4 @@ Jo vetëm që Codecademy ka shumë kurse të shkëlqyera në gjuhë të ndryshme
 
 ## [Khan Academy](https://www.khanacademy.org/)
 
-Një burim i shkëlqyeshëm jo vetëm për të mësuar matematikën (për të cilën shumica e njerëzve ndoshta e njohin), por gjithashtu[computer programming](https://www.khanacademy.org/computing/computer-programming). Ajo që ofron Khan Academy që është e ndryshme nga dy burimet e tjera të mësipërme është se ajo ofron kurse në [shkenca kompjuterike të lidhura me [computer science](https://www.khanacademy.org/computing/computer-science).
+Një burim i shkëlqyeshëm jo vetëm për të mësuar matematikën (për të cilën shumica e njerëzve ndoshta e njohin), por gjithashtu[computer programming](https://www.khanacademy.org/computing/computer-programming). Ajo që ofron Khan Academy që është e ndryshme nga dy burimet e tjera të mësipërme është se ajo ofron kurse në shkenca kompjuterike
