@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Nga une
-
+title: About
 permalink: /about
 ---
 
