@@ -10,7 +10,7 @@ image: arctic-1.jpg
 
 ## Formatimi bazë
 
-Me Markdown, është e mundur të theksohen fjalët duke i bërë ato *të pjerrëta*, duke përdorur *yllth* ose _nënvizat_, ose duke i bërë **të theksuara**, duke përdorur **yllza të dyfishta** ose __nënvizime të dyfishta__. Natyrisht, ju mund t'i kombinoni ato dy formate, me tekstin _**të theksuara dhe të pjerrëta**_, duke përdorur çdo kombinim të sintaksës së mësipërme. Ju gjithashtu mund të shtoni një goditje në tekst duke përdorur një ~~ tildë të dyfishtë~~.
+Me Markdown, është e mundur të theksohen fjalët duke i bërë ato *të pjerrëta*, duke përdorur *yllth* ose _nënvizat_, ose duke i bërë **të theksuara**, duke përdorur **yllza të dyfishta** ose __nënvizime të dyfishta__. Natyrisht, ju mund t'i kombinoni ato dy formate, me tekstin _**të theksuara dhe të pjerrëta**_, duke përdorur çdo kombinim të sintaksës së mësipërme. Ju gjithashtu mund të shtoni një goditje në tekst duke përdorur një ~~tildë të dyfishtë~~.
 
 ## Paragrafë
 
