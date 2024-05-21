@@ -1,8 +1,8 @@
 ---
 layout: category
 title: Fakte
-category: facts
-permalink: /facts
+category: Fakte
+permalink: /fakte
 ---
 Gjuha e parë e programimit: Gjuha e parë e programimit, e quajtur "Ada," u krijua nga Ada Lovelace në vitet 1800. Ajo është njohur si programuesja e parë në botë.
 
