@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Facts
+title: Fakte
 category: facts
 permalink: /facts
 ---
